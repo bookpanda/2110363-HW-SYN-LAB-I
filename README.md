@@ -15,3 +15,13 @@ output wire Y2; //or just output Y2;
 
 ### reg
 - required when assigning output values in always block
+
+
+### 7-segment
+#### Common cathode
+- A-G active high
+- AN active low
+
+#### Common anode
+- A-G active low
+- AN active high
