@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/clockDiv.v,1724685672,verilog,,C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/hexTo7Segment.v,,clockDiv,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/hexTo7Segment.v,1724685988,verilog,,C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/quadSevenSeg.v,,hexTo7Segment,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/quadSevenSeg.v,1724686101,verilog,,C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/system.v,,quadSevenSeg,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab02/lab02.srcs/sources_1/new/system.v,1724686109,verilog,,,,system,,,,,,,,
