@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sim_1/new/testBCDCounter.v,1725946061,verilog,,,,testBCDCounter,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sim_1/new/testDFlipFlop.v,1725943989,verilog,,,,testDFlipFlop,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sim_1/new/testSinglePulser.v,1725946784,verilog,,,,testSinglePulser,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sources_1/new/BCDCounter.v,1725945151,verilog,,C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sim_1/new/testBCDCounter.v,,BCDCounter,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sources_1/new/dFlipFlop.v,1725943614,verilog,,C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sim_1/new/testDFlipFlop.v,,dFlipFlop,,,,,,,,
+C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sources_1/new/singlePulser.v,1725946842,verilog,,C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab03/lab03.srcs/sim_1/new/testSinglePulser.v,,singlePulser,,,,,,,,

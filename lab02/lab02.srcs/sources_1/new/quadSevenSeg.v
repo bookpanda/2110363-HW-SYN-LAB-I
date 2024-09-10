@@ -23,7 +23,7 @@
 module quadSevenSeg(
     output [6:0] seg,
     output dp,
-    output an0,
+    output an0, // select most right light
     output an1,
     output an2,
     output an3,
