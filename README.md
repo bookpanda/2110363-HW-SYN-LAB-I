@@ -25,3 +25,6 @@ output wire Y2; //or just output Y2;
 #### Common anode
 - A-G active low
 - AN active high
+
+#### Display left -> right
+W4 an[3], V4 an[2], U4 an[1], U2 an[0]

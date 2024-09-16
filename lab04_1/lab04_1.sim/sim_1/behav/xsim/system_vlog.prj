@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab04_1.srcs/sources_1/new/clockDiv.v" \
+"../../../../lab04_1.srcs/sources_1/new/hexTo7Segment.v" \
+"../../../../lab04_1.srcs/sources_1/new/quadSevenSeg.v" \
+"../../../../lab04_1.srcs/sources_1/new/singlePortRAM.v" \
+"../../../../lab04_1.srcs/sources_1/new/singlePulser.v" \
+"../../../../lab04_1.srcs/sources_1/new/system.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

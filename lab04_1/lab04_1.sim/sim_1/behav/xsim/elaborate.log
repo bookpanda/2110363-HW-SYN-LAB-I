@@ -1,0 +1,9 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b077d12d18824262a0984d594b209bce --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_behav xil_defaultlib.system xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/system.v:51]
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/system.v:52]
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/system.v:53]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

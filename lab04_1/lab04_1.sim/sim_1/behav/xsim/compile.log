@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/clockDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clockDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/hexTo7Segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hexTo7Segment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/quadSevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module quadSevenSeg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/singlePortRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlePortRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/singlePulser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlePulser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab04_1/lab04_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
