@@ -31,7 +31,7 @@ module quadSevenSeg(
     input clk
     );
     
-    assign dp = 0;
+    assign dp = 1;
     
     reg [3:0] discEn;
     assign an = ~discEn;
@@ -47,10 +47,10 @@ module quadSevenSeg(
     
     always @(ps) begin
         case(ps)
-            2'b00: begin discEn = 4'b0001; hexIn=num0; end
+            2'b00: begin discEn = 4'b0001; hexIn=num0; end //right
             2'b01: begin discEn = 4'b0010; hexIn=num1; end
             2'b10: begin discEn = 4'b0100; hexIn=num2; end
-            2'b11: begin discEn = 4'b1000; hexIn=num3; end
+            2'b11: begin discEn = 4'b1000; hexIn=num3; end //left, discEn[3] = 1 aka most significant bit
         endcase
     end
     

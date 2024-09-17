@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon Sep 16 23:46:32 2024
+| Date         : Mon Sep 16 23:54:13 2024
 | Host         : LAPTOP-293MO244 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
 | Design       : system
@@ -61,25 +61,25 @@ Table of Contents
 |          Clock Signal         | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +-------------------------------+---------------+------------------+------------------+----------------+
 |  genblk1[10].div/clkDiv_reg_0 |               |                  |                1 |              1 |
-|  genblk1[11].div/clkDiv_reg_0 |               |                  |                1 |              1 |
 |  genblk1[0].div/clkDiv_reg_0  |               |                  |                1 |              1 |
-|  genblk1[3].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[11].div/clkDiv_reg_0 |               |                  |                1 |              1 |
 |  genblk1[5].div/clkDiv_reg_0  |               |                  |                1 |              1 |
-|  genblk1[2].div/clkDiv_reg_0  |               |                  |                1 |              1 |
-|  genblk1[7].div/clkDiv_reg_0  |               |                  |                1 |              1 |
-|  genblk1[4].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[3].div/clkDiv_reg_0  |               |                  |                1 |              1 |
 |  genblk1[6].div/clkDiv_reg_0  |               |                  |                1 |              1 |
-|  genblk1[9].div/clkDiv_reg_0  |               |                  |                1 |              1 |
-|  genblk1[13].div/clkDiv_reg_0 |               |                  |                1 |              1 |
-|  genblk1[15].div/clkDiv_reg_0 |               |                  |                1 |              1 |
-|  genblk1[16].div/clkDiv_reg_0 |               |                  |                1 |              1 |
-|  genblk1[8].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[2].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[4].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[7].div/clkDiv_reg_0  |               |                  |                1 |              1 |
 |  genblk1[12].div/clkDiv_reg_0 |               |                  |                1 |              1 |
 |  genblk1[14].div/clkDiv_reg_0 |               |                  |                1 |              1 |
-|  genblk1[1].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[15].div/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  genblk1[13].div/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  genblk1[16].div/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  genblk1[9].div/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  genblk1[8].div/clkDiv_reg_0  |               |                  |                1 |              1 |
 |  genblk1[17].div/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  genblk1[1].div/clkDiv_reg_0  |               |                  |                1 |              1 |
 |  clk_IBUF_BUFG                |               |                  |                1 |              1 |
-|  genblk1[18].div/clkDiv       |               |                  |                2 |              8 |
+|  genblk1[18].div/CLK          |               |                  |                2 |              8 |
 +-------------------------------+---------------+------------------+------------------+----------------+
 
 

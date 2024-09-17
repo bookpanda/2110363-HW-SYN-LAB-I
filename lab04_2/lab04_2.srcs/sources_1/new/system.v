@@ -46,7 +46,7 @@ module system(
     initial $readmemb("rom.mem", rom);
     
     always @(posedge targetClk) begin
-        {num0,num1,num2,num3} = {8'b00000000, rom[sw]};
+        {num3,num2,num1,num0} = {rom[sw], 8'b00000000};
     end
     
 endmodule
