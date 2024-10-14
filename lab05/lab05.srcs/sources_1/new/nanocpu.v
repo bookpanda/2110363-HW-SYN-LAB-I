@@ -18,9 +18,7 @@ input			nreset;
 wire	[31:0]	instruction;
 // instruction fields
 wire	[5:0]	opcode;
-wire	[4:0]	rs;
-wire	[4:0]	rt;
-wire	[4:0]	rd;
+wire	[4:0]	rs, rt, rd;
 wire	[10:0]	reserved;
 wire	[15:0]	imm;
 wire	[25:0]	addr;
@@ -72,7 +70,7 @@ wire	sel_data;
 wire	sel_b;
 wire	z_new;
 wire	c_new;
-wire	[1:0]	alu_ops;
+wire	[2:0]	alu_ops;
 
 wire	[31:0]	A;
 wire	[31:0]	B;
@@ -93,19 +91,9 @@ mux2_1		MUXDATA(data_selected,data_S,data_M,sel_data);
 mux2_1		MUXB(B_selected,B,imm_ext,sel_b);
 alu		ALU(data_S,z_new,c_new,A,B_selected,c_flag,alu_ops);
 
-control	CONTROLUNIT(
-	sel_pc,
-	sel_addpc,
-	sel_wr,
-	sel_b,
-	sel_data,
-	reg_wr,
-	mem_wr,
-	ext_ops,
-	alu_ops,
-	opcode,
-	z_new
-	);
+control	CONTROLUNIT(sel_pc, sel_addpc, sel_wr, sel_b, sel_data,
+	reg_wr, mem_wr, ext_ops, alu_ops,
+	opcode, reserved[2:0], z_new);
 
 // flag
 always @(posedge clock)
