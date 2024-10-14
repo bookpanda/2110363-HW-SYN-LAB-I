@@ -1,0 +1,53 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+$finish called at time : 90 ns : File "C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sim_1/new/test_alu.v" Line 54
+0000, B(REG[ 6]) -  00000000
+
+        10 - A(REG[ 7]) -  00000000, B(REG[ 7]) -  00000000
+
+        14 - A(REG[ 4]) -  00000000, B(REG[ 5]) -  00000000
+
+        18 - A(REG[ 4]) -  00000000, B(REG[ 5]) -  00000000
+
+        22 - A(REG[ 4]) -  00000000, B(REG[ 5]) -  00000000
+
+        26 - A(REG[ 6]) -  00000000, B(REG[ 4]) -  00000000
+
+        30 - A(REG[ 4]) -  00000000, B(REG[ 7]) -  00000000
+
+        34 - A(REG[ 0]) -  00000000, B(REG[ 0]) -  00000000
+
+        38 - A(REG[ 0]) -  00000000, B(REG[ 0]) -  00000000
+
+       380 - mem[xxxxxxx] -  00000001
+
+        42 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        46 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        50 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        54 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        58 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        62 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        66 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        70 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        74 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        78 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        82 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        86 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        90 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        94 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
+        98 - A(REG[ x]) -  xxxxxxxx, B(REG[ x]) -  xxxxxxxx
+
