@@ -21,8 +21,7 @@ assign B = regs[rb];
 
 integer i;
 
-initial
-begin
+initial begin
 	for(i=0;i<32;i=i+1)
 	begin
 		regs[i]=0;

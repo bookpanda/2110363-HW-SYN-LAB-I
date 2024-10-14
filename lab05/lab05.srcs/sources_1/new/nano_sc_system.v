@@ -24,6 +24,6 @@ module nano_sc_system(
     
     nanocpu	CPU(p_address,p_data,d_address,d_data,mem_wr,clk,nreset);
     rom 	PROGMEM(p_data,p_address[17:2]);
-    newmemory 	DATAMEM(d_data,d_address[15:0],mem_wr,clk,sw,seg,an,dp);
+    memory 	DATAMEM(d_data,d_address[15:0],mem_wr,clk,sw,seg,an,dp);
     
 endmodule

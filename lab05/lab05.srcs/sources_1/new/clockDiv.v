@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10/14/2024 08:45:46 PM
+// Create Date: 08/30/2021 09:01:58 PM
 // Design Name: 
 // Module Name: clockDiv
 // Project Name: 
@@ -36,4 +36,3 @@ module clockDiv(
     end
     
 endmodule
-
