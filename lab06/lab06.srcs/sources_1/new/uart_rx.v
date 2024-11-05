@@ -43,6 +43,8 @@ module uart_rx(
         
         // sampling every 16 ticks
         case (count)
+            // first 16 cycles = start bit (idle high -> low)
+            // each bit spans 16 cycles, so best to sample from middle of span (least chance of getting wrong value)
             8'd24:  data_out[0] <= bit_in;
             8'd40:  data_out[1] <= bit_in;
             8'd56:  data_out[2] <= bit_in;

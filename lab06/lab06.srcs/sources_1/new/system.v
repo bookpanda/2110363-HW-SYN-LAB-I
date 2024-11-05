@@ -29,9 +29,11 @@ module system(
     input clk //both
     );
     
+    // clk for 7 seg
     wire clkDiv;
     divClock dc(clkDiv,clk);
     
+    // clk for UART
     wire clkDiv2;
     baudrate_gen baudrate_gen_inst(clk,clkDiv2);
     

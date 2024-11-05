@@ -27,6 +27,8 @@ module divClock(
     
     reg [9:0] baud_counter; // Needs 10 bits to hold values up to 868
     wire baud_tick = (baud_counter == 867); // Generate tick when counter reaches 868
+    // 100M/115200 = 867 cycles
+    // we want to split 1 sec into 115200 bps (just arbitrary number)
     
     always @(posedge clk) begin
         if (baud_tick) begin

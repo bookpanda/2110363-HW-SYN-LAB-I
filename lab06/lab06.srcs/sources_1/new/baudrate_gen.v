@@ -32,8 +32,9 @@ module baudrate_gen(
         // Clock = 10ns
         // ClockFreq = 1/10ns = 100 MHz
         // Baudrate = 9600
-        // counter = ClockFreq/Baudrate/16/2
-        // sampling every 16 ticks
+        // counter = ClockFreq/Baudrate/16/2 = 325
+        // /2 is for up and down (1 cycle)
+        // sample 1 bit every 16 ticks
     end
     
 endmodule
