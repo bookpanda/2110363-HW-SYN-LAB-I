@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1728917666">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1728921808">
   <File Type="PA-TCL" Name="nano_sc_system.tcl"/>
   <File Type="REPORTS-TCL" Name="nano_sc_system_reports.tcl"/>
   <File Type="RDS-RDS" Name="nano_sc_system.vds"/>
@@ -50,6 +50,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/mux2_1.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -58,13 +65,6 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/nanocpu.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/newmemory.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -99,14 +99,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/memory.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/new/micropc.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
@@ -116,31 +108,31 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/prog.list">
-      <FileInfo SFType="MEM">
+      <FileInfo SFType="DATA">
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/data.list">
-      <FileInfo SFType="MEM">
+      <FileInfo SFType="DATA">
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/prog2.list">
-      <FileInfo SFType="MEM">
+      <FileInfo SFType="DATA">
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/prog1.list">
-      <FileInfo SFType="MEM">
+      <FileInfo SFType="DATA">
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/prog3.list">
-      <FileInfo SFType="MEM">
+      <FileInfo SFType="DATA">
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

@@ -1,0 +1,84 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Nov  5 10:54:30 2024
+| Host         : LAPTOP-293MO244 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
+| Design       : system
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    81 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            8 |
+|      2 |            3 |
+|      7 |            1 |
+|      8 |            1 |
+|     10 |            1 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              13 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              50 |           14 |
+| Yes          | No                    | No                     |               8 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+------------------+--------------------------------------+------------------+----------------+
+|      Clock Signal      |   Enable Signal  |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++------------------------+------------------+--------------------------------------+------------------+----------------+
+|  baudrate_gen_inst/CLK | rx/data_out_0[3] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[4] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[5] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[6] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[0] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[1] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[2] |                                      |                1 |              1 |
+|  baudrate_gen_inst/CLK | rx/data_out_0[7] |                                      |                1 |              1 |
+|  clk_IBUF_BUFG         |                  |                                      |                2 |              2 |
+|  baudrate_gen_inst/CLK |                  |                                      |                1 |              2 |
+|  dc/CLK                |                  |                                      |                1 |              2 |
+|  rx/E[0]               |                  |                                      |                5 |              7 |
+|  baudrate_gen_inst/CLK |                  | rx/count[7]_i_1_n_0                  |                3 |              8 |
+|  clk_IBUF_BUFG         |                  | dc/clear                             |                3 |             10 |
+|  clk_IBUF_BUFG         |                  | baudrate_gen_inst/counter[0]_i_1_n_0 |                8 |             32 |
++------------------------+------------------+--------------------------------------+------------------+----------------+
+
+

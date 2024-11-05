@@ -44,9 +44,9 @@ read_verilog -library xil_defaultlib {
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/control.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/extender.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/hexTo7Segment.v
+  C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/memory.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/mux2_1.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/nanocpu.v
-  C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/newmemory.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/quadSevenSeg.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/regfile.v
   C:/Users/margi/Code/school/2110363-HW-SYN-LAB-I/lab05/lab05.srcs/sources_1/new/rom.v

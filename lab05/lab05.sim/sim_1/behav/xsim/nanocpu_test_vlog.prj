@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab05.srcs/sources_1/new/adder.v" \
+"../../../../lab05.srcs/sources_1/new/alu.v" \
+"../../../../lab05.srcs/sources_1/new/clockDiv.v" \
+"../../../../lab05.srcs/sources_1/new/control.v" \
+"../../../../lab05.srcs/sources_1/new/extender.v" \
+"../../../../lab05.srcs/sources_1/new/hexTo7Segment.v" \
+"../../../../lab05.srcs/sources_1/new/memory.v" \
+"../../../../lab05.srcs/sources_1/new/mux2_1.v" \
+"../../../../lab05.srcs/sources_1/new/nanocpu.v" \
+"../../../../lab05.srcs/sources_1/new/quadSevenSeg.v" \
+"../../../../lab05.srcs/sources_1/new/regfile.v" \
+"../../../../lab05.srcs/sim_1/new/nanocpu_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
